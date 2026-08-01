@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "188012571210",
+    "project_id": "tarea-3-3-firebase-crud",
+    "storage_bucket": "tarea-3-3-firebase-crud.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188012571210:android:11991bd3e8278ef23a14b3",
+        "android_client_info": {
+          "package_name": "com.example.tarea33firebasecrud_gyvenorellana"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrvynEDUo40U2oy2AtfGzfNFuSxm0QNxg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

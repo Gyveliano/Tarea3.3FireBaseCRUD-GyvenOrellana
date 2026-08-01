@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Palette inspired by Rimuru Tempest (Rey Demonio) -->
+    <color name="rimuru_primary">#36C1D6</color>
+    <color name="rimuru_primary_dark">#0B2B3A</color>
+    <color name="rimuru_accent">#8A6BFF</color>
+    <color name="rimuru_gold">#FFD166</color>
+    <color name="background">#F2FBFD</color>
+    <color name="text_primary">#021124</color>
+    <color name="text_black">#000000</color>
+    <color name="delete_red">#B71C1C</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>

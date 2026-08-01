@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="80dp"
+    android:viewportWidth="200"
+    android:viewportHeight="80">
+
+    <!-- Rectángulo de fondo redondeado -->
+    <path
+        android:fillColor="#36C1D6"
+        android:pathData="M10,10 L190,10 Q195,10 195,15 L195,65 Q195,70 190,70 L10,70 Q5,70 5,65 L5,15 Q5,10 10,10 Z" />
+
+    <!-- Línea decorativa teal oscuro -->
+    <path
+        android:strokeColor="#0B2B3A"
+        android:strokeWidth="2"
+        android:pathData="M20,50 L180,50" />
+
+</vector>
+

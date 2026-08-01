@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Tarea3.3FireBaseCRUD-GyvenOrellana</string>
+    <string name="prompt_select_id">Seleccionar ID</string>
+</resources>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/gradient_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spinnerIds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#31645D"
+            android:backgroundTintMode="screen"
+            android:dropDownSelector="@color/rimuru_primary"
+            android:foregroundTint="#FE4CAFAD"
+            android:popupBackground="@color/rimuru_primary"
+            android:prompt="@string/prompt_select_id"
+            android:scrollbarThumbHorizontal="@color/rimuru_primary"
+            android:scrollbarThumbVertical="@color/rimuru_primary"
+            android:scrollbarTrackHorizontal="@color/rimuru_primary"
+            android:scrollbarTrackVertical="@color/rimuru_primary"
+            android:textColor="@color/text_black" />
+
+        <EditText
+            android:id="@+id/etId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID (para buscar/editar/eliminar)"
+            android:textColor="@color/black"
+            android:textColorHighlight="#93B7CA"
+            android:textColorHint="@color/black"
+            android:textColorLink="#364D57" />
+
+        <EditText
+            android:id="@+id/etNombres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombres"
+            android:textColor="@color/black"
+            android:textColorHighlight="#93B7CA"
+            android:textColorHint="@color/black"
+            android:textColorLink="#364D57" />
+
+        <EditText
+            android:id="@+id/etApellidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Apellidos"
+            android:textColor="@color/black"
+            android:textColorHighlight="#93B7CA"
+            android:textColorHint="@color/black"
+            android:textColorLink="#364D57" />
+
+        <EditText
+            android:id="@+id/etCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Correo"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black"
+            android:textColorHighlight="#93B7CA"
+            android:textColorHint="@color/black"
+            android:textColorLink="#364D57" />
+
+        <EditText
+            android:id="@+id/etFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha de nacimiento"
+            android:textColor="@color/black"
+            android:textColorHighlight="#93B7CA"
+            android:textColorHint="@color/black"
+            android:textColorLink="#364D57" />
+
+        <EditText
+            android:id="@+id/etFoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="URL foto (opcional)"
+            android:textColor="@color/black"
+            android:textColorHighlight="#93B7CA"
+            android:textColorHint="@color/black"
+            android:textColorLink="#364D57" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnCreate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Crear"
+                    android:drawableStart="@android:drawable/ic_menu_save"
+                    android:drawablePadding="6dp"
+                    android:backgroundTint="@color/rimuru_primary"
+                    android:textColor="@color/text_primary" />
+
+                <View android:layout_width="8dp" android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/btnRead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Buscar"
+                    android:drawableStart="@android:drawable/ic_menu_search"
+                    android:drawablePadding="6dp"
+                    android:backgroundTint="@color/rimuru_primary"
+                    android:textColor="@color/text_primary" />
+
+                <View android:layout_width="8dp" android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/btnUpdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Actualizar"
+                    android:drawableStart="@android:drawable/ic_popup_sync"
+                    android:drawablePadding="6dp"
+                    android:backgroundTint="@color/rimuru_accent"
+                    android:textColor="@color/text_primary" />
+
+            </LinearLayout>
+
+            <View android:layout_width="match_parent" android:layout_height="8dp" />
+
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Borrar"
+                android:drawableStart="@android:drawable/ic_menu_delete"
+                android:drawablePadding="6dp"
+                android:backgroundTint="@color/delete_red"
+                android:textColor="@color/white"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+

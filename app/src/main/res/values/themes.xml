@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Tarea33FireBaseCRUDGyvenOrellana" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Palette -->
+        <item name="colorPrimary">@color/rimuru_primary</item>
+        <item name="colorPrimaryVariant">@color/rimuru_primary_dark</item>
+        <item name="colorSecondary">@color/rimuru_accent</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="Theme.Tarea33FireBaseCRUDGyvenOrellana" parent="Base.Theme.Tarea33FireBaseCRUDGyvenOrellana" />
+</resources>

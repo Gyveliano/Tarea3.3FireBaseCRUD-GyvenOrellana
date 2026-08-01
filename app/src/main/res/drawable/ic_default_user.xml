@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="56dp"
+    android:height="56dp"
+    android:viewportWidth="56"
+    android:viewportHeight="56">
+
+    <!-- Fondo circular -->
+    <path
+        android:fillColor="@color/rimuru_primary"
+        android:pathData="M28,0 C43.464,0 56,12.536 56,28 C56,43.464 43.464,56 28,56 C12.536,56 0,43.464 0,28 C0,12.536 12.536,0 28,0 Z" />
+
+    <!-- Cabeza del usuario -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M28,12 C32.418,12 36,15.582 36,20 C36,24.418 32.418,28 28,28 C23.582,28 20,24.418 20,20 C20,15.582 23.582,12 28,12 Z" />
+
+    <!-- Cuerpo del usuario -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M14,36 C14,31.582 20.268,28 28,28 C35.732,28 42,31.582 42,36 L42,48 C42,50.209 40.209,52 38,52 L18,52 C15.791,52 14,50.209 14,48 L14,36 Z" />
+</vector>
+
